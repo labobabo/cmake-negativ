@@ -8,19 +8,19 @@ string bar(string s)
 	{
 		if (s[it]>='A' && s[it] <= 'Z' || s[it] >= 'a' && s[it] <= 'z' || s[it] == ' '){it++;}
 		else 
-			{
+		{
 		 s = "error";
 		 return s; 		
 		 exit(0);
-			}
+		}
 	}
 	
 	if (s.length() >=50)
-		{
+	{
 		s = "long";
 		return s; 		
 		exit(0);
-		}
+	}
 	else
 	{
     for (int i = 0; i < (s.length() / 2); ++i) 
