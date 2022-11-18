@@ -10,7 +10,7 @@ int main()
     cout << "Enter string: "; 
     getline (cin, sent);
     string result = bar(sent);
-     if (result == "error" || result == "long") 
+    if (result == "error" || result == "long") 
      {
      	cout << ("\033[31mYou write wrong message , try again. " )<< endl;
      } 
