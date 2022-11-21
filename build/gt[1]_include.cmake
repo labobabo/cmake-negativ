@@ -1,5 +1,0 @@
-if(EXISTS "/home/misha/Рабочий стол/cmake/build/gt[1]_tests.cmake")
-  include("/home/misha/Рабочий стол/cmake/build/gt[1]_tests.cmake")
-else()
-  add_test(gt_NOT_BUILT gt_NOT_BUILT)
-endif()
