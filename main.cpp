@@ -14,7 +14,7 @@ int main()
     
     else if ( checking_result == false )
     {
-    	cout << ("\033[31mYou write wrong message , try again. " )<< endl;
+    	cout << ("\033[31mYou write wrong message , try again. " ) << endl;
     }
     delete sent;
 }
