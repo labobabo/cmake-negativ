@@ -4,7 +4,8 @@
 using namespace std;
 
 TEST (REVERSTEST, EQUALITY)
-{	string m = "English";
+{	
+	string m = "English";
 	string h = reverse(m);
 	ASSERT_NE(h, m);
 }
